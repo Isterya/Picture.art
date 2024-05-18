@@ -40,6 +40,7 @@ const sliders = (slides, direction, prev, next) => {
       nextBtn.addEventListener('click', () => {
          changeSlides(1);
          items[slideIndex - 1].classList.remove('slideInRight');
+         items[slideIndex - 1].classList.add('slideInLeft');
       });
    } catch (e) {}
 

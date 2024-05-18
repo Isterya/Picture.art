@@ -1,12 +1,8 @@
-// import checkNumInputs from './checkNumInputs';
-
 const forms = () => {
    const form = document.querySelectorAll('form'),
       inputs = document.querySelectorAll('input'),
       windows = document.querySelectorAll('[data-modal]'),
       upload = document.querySelectorAll('[name="upload"]');
-
-   //    checkNumInputs('input[name="user_phone"]');
 
    const message = {
       success: 'Спасибо! Скоро мы с вами свяжемся.',

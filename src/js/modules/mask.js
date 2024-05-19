@@ -29,7 +29,7 @@ const mask = (selector) => {
       });
 
       if (event.type === 'blur') {
-         if (this.value.length == 2) {
+         if (this.value.length == 4) {
             this.value = '';
          }
       } else {
@@ -41,6 +41,7 @@ const mask = (selector) => {
 
    inputs.forEach((input) => {
       input.addEventListener('input', createMask);
+      input.addEventListener('keypress', createMask);
       input.addEventListener('focus', createMask);
       input.addEventListener('blur', createMask);
    });

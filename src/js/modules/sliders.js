@@ -49,13 +49,13 @@ const sliders = (slides, direction, prev, next) => {
          pause = setInterval(function () {
             changeSlides(1);
             items[slideIndex - 1].classList.add('slideInDown');
-         }, 3000);
+         }, 4000);
       } else {
          pause = setInterval(function () {
             changeSlides(1);
             items[slideIndex - 1].classList.remove('slideInLeft');
             items[slideIndex - 1].classList.add('slideInRight');
-         }, 3000);
+         }, 4000);
       }
    }
 

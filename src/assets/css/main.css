@@ -1518,6 +1518,9 @@ h4 {
       margin-left: auto;
       margin-right: auto;
    }
+   .main-slider img {
+      width: 520px;
+   }
    .card-block {
       padding: 5rem;
    }
@@ -1604,6 +1607,9 @@ h4 {
    .main-features {
       max-width: auto;
       margin-left: 20%;
+   }
+   .main-slider img {
+      width: 100%;
    }
    .main-slider-btn {
       width: 2rem;

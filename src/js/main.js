@@ -13,22 +13,27 @@ import scrolling from './modules/scrolling';
 import drop from './modules/drop';
 
 window.addEventListener('DOMContentLoaded', () => {
-   'use strict';
-   new WOW().init();
+  'use strict';
+  new WOW().init();
 
-   modals();
-   sliders('.feedback-slider-item', 'horizonal', '.main-prev-btn', '.main-next-btn');
-   sliders('.main-slider-item', 'vertical');
-   forms();
-   mask('[name="phone"]');
-   checkTextInputs('[name="name"]');
-   checkTextInputs('[name="message"]');
-   showMoreStyles('.button-styles', '.styles-2');
-   calc('#size', '#material', '#options', '.promocode', '.calc-price');
-   filter();
-   pictureSize('.sizes-block');
-   accordion('.accordion-heading');
-   hamburger('.burger-menu', '.burger');
-   scrolling('.pageup');
-   drop();
+  modals();
+  sliders(
+    '.feedback-slider-item',
+    'horizonal',
+    '.main-prev-btn',
+    '.main-next-btn'
+  );
+  sliders('.main-slider-item', 'vertical');
+  forms();
+  mask('[name="phone"]');
+  checkTextInputs('[name="name"]');
+  checkTextInputs('[name="message"]');
+  showMoreStyles('.button-styles', '.styles-2');
+  calc('#size', '#material', '#options', '.promocode', '.calc-price');
+  filter();
+  pictureSize('.sizes-block');
+  accordion('.accordion-heading');
+  hamburger('.burger-menu', '.burger');
+  scrolling('.pageup');
+  drop();
 });
